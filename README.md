@@ -1,13 +1,19 @@
-# Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer
+<h1 align="center">Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer</h1>
 
-[Zetao Cai](https://healorcai.github.io/)<sup>1,2</sup>, [Yaping Li](https://li-yaping.github.io/)<sup>1</sup>, [Yiqun Wang](https://22364yiqun.github.io/)<sup>2</sup>, [Xinyu Zhan](https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en)<sup>2</sup>, [Yuyin Yang](https://scholar.google.com/citations?user=0yB_bqEAAAAJ&hl=en)<sup>2</sup>,  
-[Haoxiang Ma](https://mahaoxiang822.github.io/)<sup>2</sup>, [Kailin Li](https://kailinli.top/)<sup>2</sup>, [Tao Lu](https://inspirelt.github.io/)<sup>2</sup>, [Jiangmiao Pang](https://oceanpang.github.io/)<sup>3</sup>, [Linning Xu](https://eveneveno.github.io/lnxu/)<sup>1,†</sup>, [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en)<sup>1,2,4,†</sup>
+<p align="center">
+<a href="https://healorcai.github.io/">Zetao Cai</a><sup>1,2</sup>, <a href="https://li-yaping.github.io/">Yaping Li</a><sup>1</sup>, <a href="https://22364yiqun.github.io/">Yiqun Wang</a><sup>2</sup>, <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&amp;hl=en">Xinyu Zhan</a><sup>2</sup>, <a href="https://scholar.google.com/citations?user=0yB_bqEAAAAJ&amp;hl=en">Yuyin Yang</a><sup>2</sup>,<br>
+<a href="https://mahaoxiang822.github.io/">Haoxiang Ma</a><sup>2</sup>, <a href="https://kailinli.top/">Kailin Li</a><sup>2</sup>, <a href="https://inspirelt.github.io/">Tao Lu</a><sup>2</sup>, <a href="https://oceanpang.github.io/">Jiangmiao Pang</a><sup>3</sup>, <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a><sup>1,†</sup>, <a href="https://scholar.google.com/citations?user=GMzzRRUAAAAJ&amp;hl=en">Dahua Lin</a><sup>1,2,4,†</sup>
+</p>
 
-<sup>1</sup>The Chinese University of Hong Kong &nbsp; <sup>2</sup>Shanghai AI Laboratory  
-<sup>3</sup>Joy Future Academy &nbsp; <sup>4</sup>CPII under InnoHK  
+<p align="center">
+<sup>1</sup>The Chinese University of Hong Kong &nbsp; <sup>2</sup>Shanghai AI Laboratory<br>
+<sup>3</sup>Joy Future Academy &nbsp; <sup>4</sup>CPII under InnoHK<br>
 <sup>†</sup>Corresponding authors
+</p>
 
-### [📄 Paper](https://arxiv.org/abs/2609.21514) | [🌐 Project Page](https://healorcai.github.io/Skel-WAM/) | [🎬 Video](https://www.youtube.com/watch?v=svhF2z4pJsM)
+<h3 align="center">
+<a href="https://arxiv.org/abs/2609.21514">📄 Paper</a> | <a href="https://healorcai.github.io/Skel-WAM/">🌐 Project Page</a> | <a href="https://www.youtube.com/watch?v=svhF2z4pJsM">🎬 Video</a>
+</h3>
 
 ## TL;DR
 
