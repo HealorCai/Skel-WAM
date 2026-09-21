@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Experiment outputs and model weights
+outputs/
+logs/
+wandb/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
