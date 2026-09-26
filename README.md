@@ -56,14 +56,11 @@ We will complete all releases listed below before December 2026.
 If you find this work useful, please consider citing:
 
 ```bibtex
-@misc{cai2026skelwam,
-  title = {Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer},
-  author = {Zetao Cai and Yaping Li and Yiqun Wang and Xinyu Zhan and Yuyin Yang and Haoxiang Ma and Kailin Li and Tao Lu and Jiangmiao Pang and Linning Xu and Dahua Lin},
-  year = {2026},
-  eprint = {2609.21514},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.RO},
-  url = {https://arxiv.org/abs/2609.21514},
+@article{cai2026skel,
+  title={Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer},
+  author={Cai, Zetao and Li, Yaping and Wang, Yiqun and Zhan, Xinyu and Yang, Yuyin and Ma, Haoxiang and Li, Kailin and Lu, Tao and Pang, Jiangmiao and Xu, Linning and others},
+  journal={arXiv preprint arXiv:2609.21514},
+  year={2026}
 }
 ```
 
