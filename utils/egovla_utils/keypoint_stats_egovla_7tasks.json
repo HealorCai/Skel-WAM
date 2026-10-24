@@ -1,0 +1,139 @@
+{
+  "root": "data/EgoVLA_SIM/skeleton_keypoints",
+  "num_files": 652,
+  "task_include": [
+    "Close-Drawer",
+    "Flip-Mug",
+    "Open-Drawer",
+    "Open-Laptop",
+    "Pour-Balls",
+    "Push-Box",
+    "Stack-Can"
+  ],
+  "task_exclude": null,
+  "validity_logic": "all coordinates finite and every coordinate != -1",
+  "axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "count": [
+    3492869,
+    3492869,
+    3492869
+  ],
+  "mean": [
+    0.49796370316031324,
+    0.6254704630514966,
+    0.5553140973449944
+  ],
+  "std": [
+    0.13174940541624494,
+    0.13473278683898302,
+    0.09640545608003459
+  ],
+  "min": [
+    0.0,
+    0.0,
+    0.1710607409477234
+  ],
+  "max": [
+    0.9973958134651184,
+    0.9973958134651184,
+    0.8762978911399841
+  ],
+  "min_location": [
+    {
+      "axis": "x",
+      "value": 0.0,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Close-Drawer/episode_1.hdf5",
+      "frame": 1,
+      "point_index": [
+        1,
+        14
+      ],
+      "xyz": [
+        0.0,
+        0.6979166865348816,
+        0.35866087675094604
+      ]
+    },
+    {
+      "axis": "y",
+      "value": 0.0,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Open-Laptop/episode_18.hdf5",
+      "frame": 81,
+      "point_index": [
+        0,
+        15
+      ],
+      "xyz": [
+        0.6223958134651184,
+        0.0,
+        0.545076847076416
+      ]
+    },
+    {
+      "axis": "z",
+      "value": 0.1710607409477234,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Open-Drawer/episode_2.hdf5",
+      "frame": 138,
+      "point_index": [
+        0,
+        4
+      ],
+      "xyz": [
+        0.3515625,
+        0.8567708134651184,
+        0.1710607409477234
+      ]
+    }
+  ],
+  "max_location": [
+    {
+      "axis": "x",
+      "value": 0.9973958134651184,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Push-Box/episode_61.hdf5",
+      "frame": 24,
+      "point_index": [
+        0,
+        5
+      ],
+      "xyz": [
+        0.9973958134651184,
+        0.6666666865348816,
+        0.41944485902786255
+      ]
+    },
+    {
+      "axis": "y",
+      "value": 0.9973958134651184,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Close-Drawer/episode_10.hdf5",
+      "frame": 6,
+      "point_index": [
+        1,
+        9
+      ],
+      "xyz": [
+        0.1692708283662796,
+        0.9973958134651184,
+        0.263510525226593
+      ]
+    },
+    {
+      "axis": "z",
+      "value": 0.8762978911399841,
+      "file": "data/EgoVLA_SIM/skeleton_keypoints/Push-Box/episode_60.hdf5",
+      "frame": 136,
+      "point_index": [
+        0,
+        12
+      ],
+      "xyz": [
+        0.6067708134651184,
+        0.4791666567325592,
+        0.8762978911399841
+      ]
+    }
+  ]
+}

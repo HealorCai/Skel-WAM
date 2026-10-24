@@ -1,0 +1,153 @@
+point_names:
+  # right
+  - R_hand_base_link
+  - R_thumb_proximal
+  - R_thumb_intermediate
+  - R_thumb_distal
+  - R_thumb_tip
+  - R_index_proximal
+  - R_index_intermediate
+  - R_index_intermediate_tip
+  - R_index_tip
+  - R_middle_proximal
+  - R_middle_intermediate
+  - R_middle_intermediate_tip
+  - R_middle_tip
+  - R_ring_proximal
+  - R_ring_intermediate
+  - R_ring_intermediate_tip
+  - R_ring_tip
+  - R_pinky_proximal
+  - R_pinky_intermediate
+  - R_pinky_intermediate_tip
+  - R_pinky_tip
+  # left
+  - L_hand_base_link
+  - L_thumb_proximal
+  - L_thumb_intermediate
+  - L_thumb_distal
+  - L_thumb_tip
+  - L_index_proximal
+  - L_index_intermediate
+  - L_index_intermediate_tip
+  - L_index_tip
+  - L_middle_proximal
+  - L_middle_intermediate
+  - L_middle_intermediate_tip
+  - L_middle_tip
+  - L_ring_proximal
+  - L_ring_intermediate
+  - L_ring_intermediate_tip
+  - L_ring_tip
+  - L_pinky_proximal
+  - L_pinky_intermediate
+  - L_pinky_intermediate_tip
+  - L_pinky_tip
+
+edges:
+  right:
+    - [R_hand_base_link, R_thumb_proximal]
+    - [R_thumb_proximal, R_thumb_intermediate]
+    - [R_thumb_intermediate, R_thumb_distal]
+    - [R_thumb_distal, R_thumb_tip]
+    - [R_hand_base_link, R_index_proximal]
+    - [R_index_proximal, R_index_intermediate]
+    - [R_index_intermediate, R_index_intermediate_tip]
+    - [R_index_intermediate_tip, R_index_tip]
+    - [R_hand_base_link, R_middle_proximal]
+    - [R_middle_proximal, R_middle_intermediate]
+    - [R_middle_intermediate, R_middle_intermediate_tip]
+    - [R_middle_intermediate_tip, R_middle_tip]
+    - [R_hand_base_link, R_ring_proximal]
+    - [R_ring_proximal, R_ring_intermediate]
+    - [R_ring_intermediate, R_ring_intermediate_tip]
+    - [R_ring_intermediate_tip, R_ring_tip]
+    - [R_hand_base_link, R_pinky_proximal]
+    - [R_pinky_proximal, R_pinky_intermediate]
+    - [R_pinky_intermediate, R_pinky_intermediate_tip]
+    - [R_pinky_intermediate_tip, R_pinky_tip]
+  left:
+    - [L_hand_base_link, L_thumb_proximal]
+    - [L_thumb_proximal, L_thumb_intermediate]
+    - [L_thumb_intermediate, L_thumb_distal]
+    - [L_thumb_distal, L_thumb_tip]
+    - [L_hand_base_link, L_index_proximal]
+    - [L_index_proximal, L_index_intermediate]
+    - [L_index_intermediate, L_index_intermediate_tip]
+    - [L_index_intermediate_tip, L_index_tip]
+    - [L_hand_base_link, L_middle_proximal]
+    - [L_middle_proximal, L_middle_intermediate]
+    - [L_middle_intermediate, L_middle_intermediate_tip]
+    - [L_middle_intermediate_tip, L_middle_tip]
+    - [L_hand_base_link, L_ring_proximal]
+    - [L_ring_proximal, L_ring_intermediate]
+    - [L_ring_intermediate, L_ring_intermediate_tip]
+    - [L_ring_intermediate_tip, L_ring_tip]
+    - [L_hand_base_link, L_pinky_proximal]
+    - [L_pinky_proximal, L_pinky_intermediate]
+    - [L_pinky_intermediate, L_pinky_intermediate_tip]
+    - [L_pinky_intermediate_tip, L_pinky_tip]
+
+point_types:
+  R_hand_base_link: palm
+  L_hand_base_link: palm
+  R_thumb_proximal: thumb_proximal_link
+  L_thumb_proximal: thumb_proximal_link
+  R_thumb_intermediate: thumb_intermediate_link
+  L_thumb_intermediate: thumb_intermediate_link
+  R_thumb_distal: thumb_distal_link
+  L_thumb_distal: thumb_distal_link
+  R_thumb_tip: tip
+  L_thumb_tip: tip
+  R_index_proximal: proximal_link
+  L_index_proximal: proximal_link
+  R_index_intermediate: intermediate_link
+  L_index_intermediate: intermediate_link
+  R_index_intermediate_tip: intermediate_tip
+  L_index_intermediate_tip: intermediate_tip
+  R_index_tip: tip
+  L_index_tip: tip
+  R_middle_proximal: proximal_link
+  L_middle_proximal: proximal_link
+  R_middle_intermediate: intermediate_link
+  L_middle_intermediate: intermediate_link
+  R_middle_intermediate_tip: intermediate_tip
+  L_middle_intermediate_tip: intermediate_tip
+  R_middle_tip: tip
+  L_middle_tip: tip
+  R_ring_proximal: proximal_link
+  L_ring_proximal: proximal_link
+  R_ring_intermediate: intermediate_link
+  L_ring_intermediate: intermediate_link
+  R_ring_intermediate_tip: intermediate_tip
+  L_ring_intermediate_tip: intermediate_tip
+  R_ring_tip: tip
+  L_ring_tip: tip
+  R_pinky_proximal: proximal_link
+  L_pinky_proximal: proximal_link
+  R_pinky_intermediate: intermediate_link
+  L_pinky_intermediate: intermediate_link
+  R_pinky_intermediate_tip: intermediate_tip
+  L_pinky_intermediate_tip: intermediate_tip
+  R_pinky_tip: tip
+  L_pinky_tip: tip
+
+style:
+  point:
+    radius: 2
+    thickness: -1
+    color_right: [255, 0, 0]
+    color_left: [255, 0, 0]
+    joint_type_colors:
+      palm: [0, 140, 255]
+      proximal_link: [0, 255, 0]
+      thumb_proximal_link: [0, 255, 0]
+      intermediate_link: [255, 0, 255]
+      thumb_intermediate_link: [255, 0, 255]
+      intermediate_tip: [255, 255, 0]
+      thumb_distal_link: [255, 255, 0]
+      tip: [255, 0, 0]
+  line:
+    thickness: 1
+    color_right: [255, 255, 255]
+    color_left: [255, 255, 255]

@@ -1,3 +1,5 @@
+scripts_clusterx/
+
 # macOS
 .DS_Store
 
@@ -16,8 +18,18 @@ venv/
 
 # Experiment outputs and model weights
 outputs/
+output
+output/
+data
+data/
+downloads/
+.cache/
+*.egg-info/
+build/
+dist/
 logs/
 wandb/
+checkpoints
 checkpoints/
 *.ckpt
 *.pt

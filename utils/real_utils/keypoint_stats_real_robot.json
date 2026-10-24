@@ -1,0 +1,146 @@
+{
+  "roots": {
+    "robot": "data/real_robot/skeleton_keypoints"
+  },
+  "num_files": 202,
+  "num_files_by_source": {
+    "robot": 202
+  },
+  "valid_points_by_source": {
+    "robot": 7489818
+  },
+  "task_include": null,
+  "task_exclude": null,
+  "validity_logic": "all coordinates finite and every coordinate != -1",
+  "axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "count": [
+    7489818,
+    7489818,
+    7489818
+  ],
+  "mean": [
+    0.5449899708452175,
+    0.3817955628840795,
+    0.8689722023552768
+  ],
+  "std": [
+    0.22631833152199055,
+    0.10492070596889101,
+    0.07644624729794591
+  ],
+  "min": [
+    0.09847582876682281,
+    0.026304954662919044,
+    0.6447675228118896
+  ],
+  "max": [
+    1.0174593925476074,
+    0.8593378067016602,
+    1.1524585485458374
+  ],
+  "min_location": [
+    {
+      "source": "robot",
+      "axis": "x",
+      "value": 0.09847582876682281,
+      "file": "data/real_robot/skeleton_keypoints/pour_water/episode_000043.hdf5",
+      "frame": 325,
+      "point_index": [
+        1,
+        0
+      ],
+      "xyz": [
+        0.09847582876682281,
+        0.4709140658378601,
+        0.7540826201438904
+      ]
+    },
+    {
+      "source": "robot",
+      "axis": "y",
+      "value": 0.026304954662919044,
+      "file": "data/real_robot/skeleton_keypoints/put_something_into_drawer/episode_000028.hdf5",
+      "frame": 186,
+      "point_index": [
+        0,
+        18
+      ],
+      "xyz": [
+        0.6292723417282104,
+        0.026304954662919044,
+        0.8808844089508057
+      ]
+    },
+    {
+      "source": "robot",
+      "axis": "z",
+      "value": 0.6447675228118896,
+      "file": "data/real_robot/skeleton_keypoints/put_something_into_drawer/episode_000002.hdf5",
+      "frame": 543,
+      "point_index": [
+        1,
+        3
+      ],
+      "xyz": [
+        0.46532249450683594,
+        0.7882798314094543,
+        0.6447675228118896
+      ]
+    }
+  ],
+  "max_location": [
+    {
+      "source": "robot",
+      "axis": "x",
+      "value": 1.0174593925476074,
+      "file": "data/real_robot/skeleton_keypoints/put_something_into_drawer/episode_000006.hdf5",
+      "frame": 782,
+      "point_index": [
+        0,
+        0
+      ],
+      "xyz": [
+        1.0174593925476074,
+        0.46444833278656006,
+        0.7222263216972351
+      ]
+    },
+    {
+      "source": "robot",
+      "axis": "y",
+      "value": 0.8593378067016602,
+      "file": "data/real_robot/skeleton_keypoints/put_something_into_drawer/episode_000034.hdf5",
+      "frame": 842,
+      "point_index": [
+        1,
+        3
+      ],
+      "xyz": [
+        0.5502761602401733,
+        0.8593378067016602,
+        0.7918509840965271
+      ]
+    },
+    {
+      "source": "robot",
+      "axis": "z",
+      "value": 1.1524585485458374,
+      "file": "data/real_robot/skeleton_keypoints/place_fruit_into_box/episode_000011.hdf5",
+      "frame": 564,
+      "point_index": [
+        0,
+        8
+      ],
+      "xyz": [
+        0.7158750295639038,
+        0.3609329164028168,
+        1.1524585485458374
+      ]
+    }
+  ],
+  "mode": "robot"
+}

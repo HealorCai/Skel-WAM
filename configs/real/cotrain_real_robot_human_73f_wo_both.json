@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "name": "real_robot",
+      "type": "real_video_general",
+      "weight": 2,
+      "kwargs": {
+        "dataset_root": "data/real_robot/video_384x384",
+        "num_frames": 73,
+        "global_sample_stride": 1,
+        "action_video_freq_ratio": 6,
+        "image_size": [
+          384,
+          384
+        ],
+        "normalize": true,
+        "decord_num_threads": 1,
+        "task_include": [
+          "place_fruit_into_box",
+          "pour_water",
+          "put_something_into_drawer",
+          "stack_cups"
+        ],
+        "task_lang_map_path": "configs/real/lang_map.json",
+        "prompt_template": "An egocentric video of a robot executing the following task: {task}"
+      }
+    },
+    {
+      "name": "real_human",
+      "type": "real_video_general",
+      "weight": 1,
+      "kwargs": {
+        "dataset_root": "data/real_human/video_384x384",
+        "num_frames": 73,
+        "global_sample_stride": 1,
+        "action_video_freq_ratio": 6,
+        "image_size": [
+          384,
+          384
+        ],
+        "normalize": true,
+        "decord_num_threads": 1,
+        "task_include": [
+          "place_fruit_into_box",
+          "pour_water",
+          "put_something_into_drawer",
+          "stack_cups"
+        ],
+        "task_lang_map_path": "configs/real/lang_map.json",
+        "prompt_template": "An egocentric video of a robot executing the following task: {task}"
+      }
+    }
+  ]
+}

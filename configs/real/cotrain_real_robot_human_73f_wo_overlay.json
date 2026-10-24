@@ -1,0 +1,70 @@
+{
+  "sources": [
+    {
+      "name": "real_robot",
+      "type": "egovla_general",
+      "weight": 2,
+      "kwargs": {
+        "dataset_root": "data/real_robot/video_384x384",
+        "keypoint_root": "data/real_robot/skeleton_keypoints",
+        "keypoint_stats_path": "utils/real_utils/keypoint_stats_real_human_robot.json",
+        "num_frames": 73,
+        "global_sample_stride": 1,
+        "action_video_freq_ratio": 6,
+        "history_keypoint_offsets": [
+          -18,
+          -12,
+          -6
+        ],
+        "keypoint_dims": 3,
+        "image_size": [
+          384,
+          384
+        ],
+        "normalize": true,
+        "decord_num_threads": 1,
+        "task_include": [
+          "place_fruit_into_box",
+          "pour_water",
+          "put_something_into_drawer",
+          "stack_cups"
+        ],
+        "task_lang_map_path": "configs/real/lang_map.json",
+        "prompt_template": "An egocentric video of a robot executing the following task: {task}"
+      }
+    },
+    {
+      "name": "real_human",
+      "type": "egovla_general",
+      "weight": 1,
+      "kwargs": {
+        "dataset_root": "data/real_human/video_384x384",
+        "keypoint_root": "data/real_human/skeleton_keypoints",
+        "keypoint_stats_path": "utils/real_utils/keypoint_stats_real_human_robot.json",
+        "num_frames": 73,
+        "global_sample_stride": 1,
+        "action_video_freq_ratio": 6,
+        "history_keypoint_offsets": [
+          -18,
+          -12,
+          -6
+        ],
+        "keypoint_dims": 3,
+        "image_size": [
+          384,
+          384
+        ],
+        "normalize": true,
+        "decord_num_threads": 1,
+        "task_include": [
+          "place_fruit_into_box",
+          "pour_water",
+          "put_something_into_drawer",
+          "stack_cups"
+        ],
+        "task_lang_map_path": "configs/real/lang_map.json",
+        "prompt_template": "An egocentric video of a robot executing the following task: {task}"
+      }
+    }
+  ]
+}

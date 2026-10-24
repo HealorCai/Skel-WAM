@@ -43,13 +43,27 @@ Robot demonstrations are expensive to collect and often provide limited distribu
 
 See the [project page](https://healorcai.github.io/Skel-WAM/) for task videos, detailed results, and ablations.
 
+## Installation
+
+See [Installation](docs/Installation.md) for environment setup and dependency installation. Next, follow [Data and Training Assets Preparation](docs/data_and_training_assets.md) to download the dataset and backbone checkpoints.
+
+## Training
+
+See the [training guide](docs/training.md) for EgoVLA-Sim, real robot, human–robot cotraining, and ablation launch commands.
+
+## Quick Test
+
+See the [quick test guide](docs/quick_test.md) to download checkpoints and run offline tests with downloaded or newly trained weights.
+
+## Evaluation in sim
+
+First follow [EgoVLA-Sim Environment Installation](docs/egovla_sim_installation.md), then use [Evaluation in EgoVLA-Sim](docs/egovla_sim_evaluation.md) to run the scripts in `eval/egovla`.
+
 ## 📋 TODO
 
-We will complete all releases listed below before December 2026.
-
-- [ ] Release the evaluation code of Skel-WAM on EgoVLA-Sim experiments.
-- [ ] Release the data processing pipeline, including robot/human hand skeleton overlay generation and skeleton keypoint extraction.
-- [ ] Release the training code and checkpoints.
+- [x] Release the evaluation code of Skel-WAM on EgoVLA-Sim experiments.
+- [x] Release the data processing pipeline, including robot hand skeleton overlay generation and skeleton keypoint extraction.
+- [x] Release the training code and checkpoints.
 
 ## 📚 Citation
 

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skel-wam"
+version = "0.1.0"
+description = "Skel-WAM training and evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+#  "torch==2.6.0+cu118",
+#  "torchvision==0.21.1+cu118",
+  "decord",
+  "imageio",
+  "numpy",
+  "pillow",
+  "einops",
+  "safetensors",
+  "rich",
+  "huggingface_hub",
+  "modelscope",
+  "transformers",
+  "sentencepiece==0.2.0",
+  "accelerate",
+  "wandb==0.22.3",
+  "imageio[ffmpeg]",
+  "ftfy",
+  "h5py==3.14.0",
+  "matplotlib",
+  "usd-core",
+  "opencv-python-headless",
+  "easydict",
+  "diffusers>=0.31.0",
+  "tqdm",
+  "scipy",
+  "PyYAML",
+  "boto3",
+  "botocore",
+  "s3transfer",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
